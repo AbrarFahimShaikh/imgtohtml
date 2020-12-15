@@ -1,2 +1,2 @@
-# img2html1
+# img2html
 First image to html demo
