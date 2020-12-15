@@ -64,7 +64,7 @@ padding:0 20px;}
 /* banner start */
 /* bg im according to paint 1254*656 */
 .banner{
-    background-image:url(../images/banner.jpg);
+    background-image:url(/images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
