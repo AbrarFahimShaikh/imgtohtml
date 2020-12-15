@@ -1,0 +1,388 @@
+body{margin:0;
+padding:0;
+}
+/*starting header*/
+header{
+    background-color: #121B2A;
+    padding:10px 0px;
+   
+    
+
+}
+
+.wrapper {
+    overflow:hidden;
+    width:80%;
+    /* border:1px solid white; */
+    margin: 0 auto; 
+    
+}
+
+.logo {
+    float:left;
+    width: 18%;
+    /* border: 1px solid white; */
+    
+}
+.logo img{
+    width:100%;
+
+}
+
+.menu {
+    margin-top: 40px;
+    float:right;
+    width: 70%;
+    /* border: 1px solid white; */
+    
+    
+}
+.menu ul {
+    float: right;}
+
+.menu ul li {
+    float: left;
+
+    list-style:none;
+}
+.menu ul li a{text-decoration: none;
+color:white;
+font-size: 16px;
+font-weight: 400;
+font-family: sans-serif;
+text-transform: uppercase;
+display:inline-block;
+padding:0 20px;}
+
+.menu ul li:last-child a{
+    padding-right:0;
+}
+.menu ul li a:hover{
+    color: #0177BD;
+}
+
+/* banner start */
+/* bg im according to paint 1254*656 */
+.banner{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 550px;
+
+    
+}
+.b_content{
+width:50%;
+margin-top: 200px;
+margin-bottom: 70px;
+/* border: 1px solid red; */
+font-family: sans-serif;}
+.b_content h1{
+    margin:0 0;
+    font-size:38px ;
+    font-weight:400;
+    color:white;
+    text-transform: capitalize;
+    
+}
+
+.b_content h2{
+    margin:0 0;
+    font-size:45px ;
+    font-weight: 550;
+    color: #0177BD;
+    text-transform:capitalize;
+
+}
+.b_content p{
+    margin:15px 0px 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 30px;
+}
+.b_content button{
+    overflow: hidden;
+    background-color: #FFF;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color:#5b5b5B;
+    border:none;
+    cursor: pointer;
+    transition: .3s;
+
+}
+.b_content button span{
+    font-weight: 700;
+    display: inline-block;
+    padding:5px 10px;
+    
+    
+
+/* border:1px solid red; */
+}
+.b_content button img{
+    margin-top:5px;
+    padding-left:4px ;
+    width:24px;
+    height:24px;
+    float:right;
+}
+
+.b_content button:hover{
+    background-color: #0177BD;
+    color: white;
+}
+/* banner end */
+
+/* service start */
+.service{
+    background-color: #121b2c;
+    padding-top: 50px;
+    padding-bottom: 10px;
+
+    -webkit-box-shadow: -15px -11px 5px -3px rgba(0,0,0,0.39);
+-moz-box-shadow: -15px -11px 5px -3px rgba(0,0,0,0.39);
+box-shadow: -15px -11px 5px -3px rgba(0,0,0,0.39);
+}
+.single{
+    width:29.2%;
+    border-right:1px solid rgba(231, 218, 218, 0.116);
+    float:left;
+    padding:50px 2%;
+}
+.single:last-child{border-right: 0;}
+.single:last-child h2{margin-top:33px;
+    font-weight: 500;
+}
+.top{overflow: hidden;}
+.t_img{
+    width: 28%;
+    /* border: solid 1px red; */
+    float: left;
+}
+.t_img img{
+    width:100%;
+    
+}
+.t_txt{
+    margin-top:15px;
+    width:60%;
+    /* border: solid 1px red; */
+    float: left;
+}
+.t_txt h2 {
+    margin:0;
+    font-family:sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color:white;
+    text-transform: capitalize;
+}
+.t_txt h2 span{
+    color:#0078BD;
+}
+
+.t_txt h3 {
+    margin:0;
+    font-family:sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    color:#0078BD;
+    text-transform: capitalize;
+}
+
+.bottom p{
+    margin:0;
+    font-family:sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:#FFF;
+    line-height: 25px; 
+}
+/* service end */
+
+
+/* experiment */
+
+
+/*contact start*/
+.contact{
+    padding: 22px 0 10px;
+	background-color: #121B2C;
+}
+.box{
+	float: left;
+	width: 28%;
+    padding: 40px 2.6% 0;
+}
+.boxtop{
+	overflow: hidden;
+}
+.boxtop h5{
+	margin: 0;
+	font-family: sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+	color: #fff;
+	text-transform: capitalize;
+}
+.boxtop h5 span{
+	color: #0170BD;
+}
+.boxtop p{
+	margin: 12px 0 0;
+	font-family: sans-serif;
+    font-size: 13px;
+    font-weight:200;
+    color: #fff;
+    line-height: 23px;
+}
+/* clipath experimental */
+#clip {padding:7.5px;
+    background-color:rgba(102, 109, 118, 0.178);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 79% 85%, 56% 100%, 56% 85%, 0 85%);
+}
+#clip p{padding-bottom:22px;}
+
+.boxbottom{
+	overflow: hidden;
+}
+.phone{
+	width: 22%;
+	float: left;
+	font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 23px;
+
+}
+.number p{
+	width: 78%;
+	float: left;
+	font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 23px;
+}
+.phone span,
+.number span{
+	line-height: 33px;
+}
+.address{
+	margin: 42px 0 10px;
+}
+.address p{
+	font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 23px;
+}
+.address span{
+	font-size: 12px;
+	font-weight: 400;
+}
+.img{
+	width: 30%;
+	float: left;
+}
+.img img{
+	width: 100%;
+}
+.box_text{
+	width: 65%;
+	float: right;
+}
+.box_text h3{
+    margin: 0 0;
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #0170BD;
+    line-height: 40px;
+}
+.box_text button{
+	margin: 10px 0;
+	width: 140px;
+	height: 55px;
+	background: #fff;
+	cursor: pointer;
+	border-radius: 3px;
+}
+.b_image img{
+	width: 100%;
+}
+/*contact end*/
+/*footer start*/
+footer{
+	padding: 8px 0 18px;
+	background-color: #17191d;
+}
+.ftrmenu{
+	width: 70%;
+	float: left;
+}
+.ftrmenu ul{
+	margin-top: 6px;
+	overflow: hidden;
+}
+.ftrmenu ul li{
+	float: left;
+	list-style: none;
+}
+.ftrmenu ul li:last-child a{
+	border-right: 0;
+}
+.ftrmenu ul li a{
+    border-right: 1px solid #fff;
+    padding: 0px 25px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    transition: .3s;
+}
+.ftrmenu ul li a:hover{
+	color: #0170BD;
+}
+.ftrmenu span{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 0px 60px;	
+}
+.f_right{
+	width: 30%;
+	float: right;
+}
+.f_img{
+	overflow: hidden;
+}
+.f_right img{
+	width: 100%;
+}
+.img_l{
+	padding: 20px 10px;
+	width: 40%;
+	float: left;
+}
+.img_2{
+    padding: 8px 10px;
+    width: 40%;
+	float: left;
+}
+
+
+/*footer end*/
